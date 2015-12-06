@@ -53,6 +53,6 @@ This theme was chosen because it adds numerous accessibility enhancements on top
 [nodejs]:               http://nodejs.org
 [ruby]:                 http://ruby-lang.org
 [travisci]:             http://travis-ci.org/intalgart/website
-[travisci-badge]:       https://api.travis-ci.org/intalgart/website?branch=master
+[travisci-badge]:       https://api.travis-ci.org/intalgart/website.png?branch=master
 [wet-boew]:             https://github.com/wet-boew/wet-boew
 [wet-boew-hugo]:        https://github.com/wet-boew/wet-boew-hugo
