@@ -1,0 +1,22 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+  Engineer(s): Daniel Burke
+               Andrew XXXX
+  Contact: drburke [at] gmail.com
+  Twitter: @drburke
+  From: Ottawa, Canada
+
+/* THANKS */
+
+  Portfolio Manager: XXXX
+  Twitter: XXXX
+  From: Ottawa, Canada
+
+/* SITE */
+
+  Last update: 2015/11/04
+  Language: English
+  Doctype: HTML5
+  IDE: Atom

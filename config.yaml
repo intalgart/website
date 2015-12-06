@@ -1,0 +1,69 @@
+BaseUrl: "http://intalgart.github.io"
+ContentDir: "content"
+LayoutDir: "layouts"
+PublishDir: "public"
+BuildDrafts: true
+LanguageCode: "en-us"
+Title: "IntALGArt"
+PluralizeListTitles: False
+menu:
+  main:
+    - Name: "Installations"
+      Weight: -110
+      Identifier: "installation"
+      Url: "/installation/"
+    - Name: "All Installation Entries"
+      Parent: "installation"
+      Weight: -100
+      Url: "/installation/"
+    - Name: "Illumination Tubes"
+      Parent: "installation"
+      Weight: -110
+      Url: "/installation/illumination-tubes/"
+    - Name: "Infinity of Three"
+      Parent: "installation"
+      Weight: -110
+      Url: "/installation/infinity/"
+    - Name: "SoundCastle"
+      Parent: "installation"
+      Weight: -110
+      Url: "/installation/soundcastle/"
+    - Name: "Organization"
+      Weight: -100
+      Identifier: "organization"
+      Url: "/organization/"
+    - Name: "Events"
+      Parent: organization
+      Weight: -110
+      Identifier: "events"
+      Url: "/organization/events/"
+    - Name: "Roadmap"
+      Parent: organization
+      Weight: -110
+      Identifier: "roadmap"
+      Url: "/organization/roadmap/"
+    - Name: "All Organizational Entries"
+      Parent: "organization"
+      Weight: -100
+      Url: "/organization/"
+    - Name: "Blog"
+      Weight: -90
+      Identifier: "blog"
+      Url: "/post/"
+Params:
+  Author: "Daniel Burke"
+  Banner: "Showcasing interactive art installations powered by kinectic motion and processed by intelligent alogrithms."
+  DateForm: "2006-01-02"
+  disqusShortname: "intalgart"
+  GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
+  Github: "intalgart/intalgart.github.io"
+  Search: "intalgart.github.io"
+  ShowRelatedPost: True
+  Slogan: "Interactive, kinetic lighting installation(s)"
+  SyntaxHighlightTheme: "monokai.min.css"
+  Theme: "theme-wet-boew"
+Indexes:
+  tag: "tags"
+permalinks:
+  post: /post/:year/:month/:day/:title/
+MetadataFormat: "yaml"

@@ -1,0 +1,31 @@
+{{ partial "header/default_header.html" . }}
+<!-- Banner -->
+<div class="jumbotron">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.Banner }}</p>
+    <p><a href="/installation" class="btn btn-primary btn-lg">Browse Installations</a></p>
+</div>
+<!-- Build Status -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="pull-right">
+            <a href="https://travis-ci.org/intalgart/website">
+                <img src="https://travis-ci.org/intalgart/website.png" alt="Travis CI" />
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Columns -->
+<div class="row">
+    <div class="col-lg-6">
+        <h2>Illumination Tubes</h2>
+        <p>A multitude of translucent tubes containing addressable LEDs are arranged to form a self-connected scissor extension.</p>
+        <p><a class="btn btn-default" href="/installation/illumination-tubes">More Info</a></p>
+    </div>
+    <div class="col-lg-6">
+        <h2>Freddie The Robot</h2>
+        <p>A relatively straightforward gif created using Processing. Each individual dot oscillates sinusoidally along a fixed radial path.</p>
+        <p><a class="btn btn-default" href="installation/freddie-robot/">More Info</a></p>
+    </div>
+</div>
+{{ partial "footer/default_footer.html" . }}
