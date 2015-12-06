@@ -10,7 +10,7 @@ date = "2015-11-04T13:10:52-05:00"
 type = "single"
 +++
 
-<img src="/assets/images/installation/soundcastle/soundcastle.jpg" class="center-block" alt="SoundCastle Logo" title="Logo for SoundCastle" />
+<img src="/assets/images/installation/soundcastle/soundcastle.jpg" class="img-responsive center-block" alt="SoundCastle Logo" title="Logo for SoundCastle" />
 
 Soundcastle was exhibited at the Ottawa Maker Faire. Maker Faire is an all-ages gathering of tech enthusiasts, crafters, educators, tinkerers, hobbyists, engineers, science clubs, authors, artists, students, and commercial exhibitors. All of these “makers” come to Maker Faire to show what they have made and to share what they have learned.
 
